@@ -1,0 +1,368 @@
+/* navbar */
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    height: 65px;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.4);
+}
+
+/* Title */
+.navbar-default .navbar-brand {
+    color: #488dd8;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #488dd8;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #488dd8;
+	font-weight: 600;
+	font-size: 17px;
+	position: relative;
+	display: block;
+	padding-top: 25px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #00d1b2;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #488dd8;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #488dd8;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+/*@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+} */
+
+/* ------------------- GENERAL ------------------- */
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+#experience ul {
+	margin-top: 5%;
+}
+
+#experience li{
+	font-size: 16px;
+}
+
+li {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+body p {
+	font-size: 17px;
+	font-weight: 300;
+	text-align: justify;
+	margin: 0 0;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 25px;
+	font-weight: 400;
+	color: #E8890C;
+	font-size: 45px;
+}
+
+h3 {
+	font-weight: 400;
+	color: #3D6999;
+	margin-top: 0px;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-size: 17px;
+	font-weight: 300;
+	margin: 0 0;
+}
+
+strong {
+	font-size: 20px;
+}
+
+hr {
+	border-color: #727878;
+	opacity: 0.2;
+	width: 60%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.comment {
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+
+}
+
+.list {
+	list-style: none;
+	list-style-position: outside;
+	padding: 0px 0px;
+}
+
+/* ------------------- PROFIL ------------------- */
+
+.description img {
+	width: 85%;
+	border-radius: 50%;
+	display: block;
+	margin: auto; 
+}
+
+.description {
+	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-bottom: 40px;
+}
+
+#profile {
+	padding-top: 20px;
+	padding-left: 60px;
+	display: block;
+	margin: auto;
+}
+
+#profile li {
+	font-weight: 200;
+	color: #488dd8;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	list-style: none;
+}
+
+/* décalage du texte "business student" sur la droite */
+#correction {
+	padding-right: 24px;
+} 
+
+.icons {
+	padding-right: 30px;
+}
+
+/* ------------------- CORPS ------------------- */
+
+.corps {
+		padding: 0px 130px;
+}
+
+.corps img{
+	max-width: 150px;
+	max-height: 120px;
+	
+}
+
+.filling {
+	margin-bottom: 80px;
+}
+
+.period {
+	margin-bottom: 30px;
+}
+
+#sensas {
+	margin-left: 5px;
+}
+
+.location {
+	color: #E8890C;
+	font-size: 15px;
+	float: right;
+}
+
+.location i {
+	margin-right: 10px; 
+}
+
+/* ------------------- EDUCATION ------------------- */
+
+#education {
+	margin-top: 30px;
+}
+
+/* ------------------- ABILITIES ------------------- */
+
+.skills {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.skills img {
+	max-width: 600px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.logos {
+	margin-top: 15px;
+	max-width: 70px;
+}
+
+#code {
+	-webkit-box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.43);
+	text-align: center;
+}
+
+
+.skills li {
+	color: #E8890C;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+/*.padding-right {
+	padding-right: 50px;
+}
+
+.padding-left {
+	padding-left: 30px;
+}*/
+/* ------------------- FOOTER ------------------- */
+
+.footer {
+	background-color: #AAC4D8;
+	height: 300px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+#contact {
+	color: #2e2f30;
+	margin-bottom: 50px;
+}
+
+.footer a {
+	color: #eaf2f9;
+	font-size: 50px;
+}
+
+.footer a:hover {
+	color: #E8890C;
+	font-size: 50px;
+}
+
+.footer p {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* ------------------- RESPONSIVE DESIGN ------------------- */
+
+@media all and (max-width: 1024px) {
+
+.responsive-center {
+	text-align: center;
+	
+}
+
+.description img {
+	width: 60%;
+	border-radius: 50%;
+	margin: auto; 
+}
+
+body p {
+	font-size: 23px;
+	font-weight: 300;
+	text-align: justify;
+	margin: auto;
+}
+
+#responsive-description {
+	padding: 0px 45px;
+	margin-top: 45px;
+}
+
+.corps {
+	padding: 45px;
+}
+
+.corps img{
+	margin-bottom: 20px;
+}
+
+.description {
+	margin-bottom: 0px;
+}
+
+.period {
+	margin-bottom: 20px;
+}
+
+.responsive-stan {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}

@@ -1,0 +1,212 @@
+header {
+	font-family: 'Nunito', sans-serif;
+}
+
+.navigation a:hover {
+	text-decoration: none;
+	color: #00d1b2;
+}
+
+.navigation a {
+	color: #488dd8;
+}
+.navigation li {
+	margin-left: 50px;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.navigation {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	float: right;
+	margin-right: 50px;
+}
+
+.title h1 {
+	color: #488dd8;
+	float: left;
+	position: absolute;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 12px;
+	padding-left: 15px;
+}
+
+.shadow {
+	height: 	
+	-webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.4);
+}
+
+/* ------------------- GENERAL ------------------- */
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+li {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+body p {
+	font-size: 17px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 25px;
+	font-weight: 400;
+	color: #E8890C;
+	font-size: 45px;
+}
+
+h3 {
+	font-weight: 400;
+	color: #3D6999;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+strong {
+	font-size: 20px;
+}
+
+hr {
+	border-color: #727878;
+	opacity: 0.2;
+	width: 60%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* ------------------- PROFIL ------------------- */
+
+.description img {
+	width: 70%;
+	height: auto;
+	border-radius: 50%;
+	display: block;
+	margin: auto; 
+}
+
+.description {
+	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-bottom: 60px;
+}
+
+#profile {
+	padding-top: 20px;
+	padding-left: 60px;
+	display: block;
+	margin: auto;
+}
+
+#profile li {
+	font-weight: 200;
+	color: #488dd8;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	list-style: none;
+}
+
+/* décalage du texte "business student" sur la droite */
+#correction {
+	padding-right: 24px;
+} 
+
+.icons {
+	padding-right: 30px;
+}
+
+/* ------------------- CORPS ------------------- */
+
+.corps {
+		padding: 0px 130px;
+}
+
+.corps img{
+	max-width: 150px;
+	max-height: 120px;	
+}
+
+.filling {
+	margin-bottom: 80px;
+}
+
+.period {
+	margin-bottom: 30px;
+}
+
+#sensas {
+	margin-left: 5px;
+}
+
+.location {
+	color: #E8890C;
+	font-size: 15px;
+	float: right;
+}
+
+.location i {
+	margin-right: 10px; 
+}
+
+/* ------------------- EDUCATION ------------------- */
+
+#education {
+	margin-top: 30px;
+}
+
+/* ------------------- SKILLS ------------------- */
+
+.skills ul {
+	list-style: none;
+}
+
+
+
+/* ------------------- FOOTER ------------------- */
+
+.footer {
+	background-color: #AAC4D8;
+	height: 300px;
+}
+
+#contact {
+	color: #2e2f30;
+	margin-bottom: 50px;
+}
+
+.footer a {
+	color: #eaf2f9;
+	font-size: 50px;
+}
+
+.footer a:hover {
+	color: #E8890C;
+	font-size: 50px;
+}
+
+footer p {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 30px;
+}
